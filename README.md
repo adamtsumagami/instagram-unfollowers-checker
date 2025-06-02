@@ -20,13 +20,17 @@ Script Python sederhana untuk mengecek siapa saja yang tidak mem-follow balik ak
    git clone https://github.com/kamu/instagram-unfollowers-checker.git
    cd ig-unfollowers-checker
 2. **Install dependency**
+   ```bash
    pip install instaloader
-3. **Login ke akun instagram kamu**
+4. **Login ke akun instagram kamu**
+   ```bash
    instaloader --login=USERNAME_KAMU
 
 ## Cara Menjalankan
-Setelah berhasil login, jalankan 
+Setelah berhasil login, jalankan
+```bash
 python check_unfollowers.py
+```
 
 ## Keamanan
 Script ini tidak menyimpan password kamu.
@@ -34,9 +38,13 @@ Script ini tidak menyimpan password kamu.
 Semua sesi disimpan secara lokal oleh instaloader di :
 
 **Windows :**
+```bash
 C:\Users\USERNAME\AppData\Local\Instaloader\session-USERNAME
+```
 
 **Linux/macOS:**
+```bash
 ~/.config/instaloader/session-USERNAME
+```
 
 MIT License © 2025 Adam Tsumagami
