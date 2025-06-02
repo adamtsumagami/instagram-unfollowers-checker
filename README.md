@@ -32,10 +32,11 @@ python check_unfollowers.py
 Script ini tidak menyimpan password kamu.
 
 Semua sesi disimpan secara lokal oleh instaloader di :
-Windows:
+
+**Windows :**
 C:\Users\USERNAME\AppData\Local\Instaloader\session-USERNAME
 
-Linux/macOS:
+**Linux/macOS:**
 ~/.config/instaloader/session-USERNAME
 
 MIT License © 2025 Adam Tsumagami
